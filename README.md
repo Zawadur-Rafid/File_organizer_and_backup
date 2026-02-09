@@ -1,4 +1,4 @@
-File Organizer & Backup
+<b>File Organizer & Backup</b>
 
 A Python-based utility to automatically organize your files into categorized folders and create backups of important data. This tool helps you maintain a clean and structured file system while keeping your files safe.
 
