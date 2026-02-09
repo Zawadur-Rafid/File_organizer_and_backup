@@ -1,66 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Organizer & Backup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 900px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "✅";
+            margin-right: 8px;
+        }
+        ol {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
 <h1>File Organizer & Backup</h1>
 
-A Python-based utility to automatically organize your files into categorized folders and create backups of important data. This tool helps you maintain a clean and structured file system while keeping your files safe.
+<p>A <strong>Python-based utility</strong> to automatically organize files into categorized folders and create backups of important data. This tool helps maintain a clean and structured file system while keeping your files safe.</p>
 
-Features
+<h2>Features</h2>
+<ul>
+    <li>Automatically organizes files by type (e.g., documents, images, videos, audio, archives)</li>
+    <li>Creates backups of files and folders to a specified location</li>
+    <li>Supports custom folder categories and extensions</li>
+    <li>Easy-to-use, script-based solution for personal file management</li>
+    <li>Helps reduce clutter and improves desktop or project folder organization</li>
+</ul>
 
-✅ Automatically organizes files by type (e.g., documents, images, videos, audio, archives).
+<h2>Tech Stack</h2>
+<ul>
+    <li><strong>Language:</strong> Python</li>
+    <li><strong>Libraries:</strong> <code>os</code>, <code>shutil</code>, <code>datetime</code>, <code>pathlib</code> (all standard Python libraries)</li>
+</ul>
 
-✅ Creates backups of files and folders to a specified location.
+<h2>Installation</h2>
+<ol>
+    <li>Clone the repository:
+        <pre><code>git clone https://github.com/Zawadur-Rafid/File_organizer_and_backup.git</code></pre>
+    </li>
+    <li>Navigate to the project directory:
+        <pre><code>cd File_organizer_and_backup</code></pre>
+    </li>
+    <li>Ensure you have Python 3 installed. No additional libraries are required.</li>
+</ol>
 
-✅ Supports custom folder categories and extensions.
+<h2>Usage</h2>
+<ol>
+    <li>Open the script <code>file_organizer_backup.py</code></li>
+    <li>Modify the source folder path (<code>source_path</code>) and backup destination (<code>backup_path</code>) if needed</li>
+    <li>Run the script:
+        <pre><code>python file_organizer_backup.py</code></pre>
+    </li>
+    <li>Files will be automatically organized into folders by type, and a backup will be created at the specified location</li>
+</ol>
 
-✅ Easy-to-use, script-based solution for personal file management.
-
-✅ Helps reduce clutter and improves desktop or project folder organization.
-
-Tech Stack
-
-Language: Python
-
-Libraries: os, shutil, datetime, pathlib (all standard Python libraries)
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/Zawadur-Rafid/File_organizer_and_backup.git
-
-
-Navigate to the project directory:
-
-cd File_organizer_and_backup
-
-
-Ensure you have Python 3 installed. No additional libraries are required.
-
-Usage
-
-Open the script file_organizer_backup.py.
-
-Modify the source folder path (source_path) and backup destination (backup_path) if needed.
-
-Run the script:
-
-python file_organizer_backup.py
-
-
-Files will be automatically organized into folders by type, and a backup will be created at the specified location.
-
-Folder Structure Example
-Organized_Files/
+<h2>Folder Structure Example</h2>
+<pre><code>Organized_Files/
 ├── Documents/
 ├── Images/
 ├── Videos/
 ├── Audio/
 ├── Archives/
-└── Others/
+└── Others/</code></pre>
 
-Contributing
+<h2>Contributing</h2>
+<p>Contributions are welcome! Open issues or submit pull requests to improve functionality, add new features, or optimize performance.</p>
 
-Contributions are welcome! Feel free to open issues or submit pull requests to improve functionality, add new features, or optimize performance.
+<h2>License</h2>
+<p>This project is licensed under the MIT License – see the LICENSE file for details.</p>
 
-License
-
-This project is licensed under the MIT License – see the LICENSE
- file for details.
+</body>
+</html>
